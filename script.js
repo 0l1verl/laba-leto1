@@ -1,6 +1,4 @@
-/* =========================================
-   ТЁМНАЯ / СВЕТЛАЯ ТЕМА
-========================================= */
+/*день\ночь*/
 
 const themeButton = document.getElementById("themeButton");
 
@@ -17,9 +15,7 @@ themeButton.addEventListener("click", function () {
 });
 
 
-/* =========================================
-   КАРУСЕЛЬ ФОТОГРАФИЙ
-========================================= */
+/*каруселька*/
 
 const slides = document.querySelectorAll(".gallery__slide");
 
@@ -39,10 +35,7 @@ let slideIndex = 0;
 
 totalSlides.textContent = slides.length;
 
-
-/* =========================================
-   ФУНКЦИЯ ПОКАЗА ФОТО
-========================================= */
+/*показ фото*/
 
 function showSlide(index) {
 
@@ -58,9 +51,7 @@ function showSlide(index) {
 }
 
 
-/* =========================================
-   СЛЕДУЮЩАЯ ФОТОГРАФИЯ
-========================================= */
+/*след фото*/
 
 nextButton.addEventListener("click", function () {
 
@@ -76,10 +67,7 @@ nextButton.addEventListener("click", function () {
 
 });
 
-
-/* =========================================
-   ПРЕДЫДУЩАЯ ФОТОГРАФИЯ
-========================================= */
+/*пред фото*/
 
 prevButton.addEventListener("click", function () {
 
