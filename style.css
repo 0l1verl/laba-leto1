@@ -11,8 +11,16 @@ body {
 
     font-family: Arial, Helvetica, sans-serif;
 
-    background: #ffffff;
-    color: #111111;
+    background: 
+    linear-gradient(
+        #f5f5f5 10%,
+        #ffffff 20%,
+        #ffffff 80%,
+        #dcdcdc 100%
+
+    )
+    ;
+    color: var(--color-text);
 
     transition:
         background-color 0.3s,
@@ -91,7 +99,6 @@ body.dark-theme {
 
     cursor: pointer;
 }
-
 .hero {
     position: relative;
 
